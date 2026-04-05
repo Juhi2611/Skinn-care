@@ -54,12 +54,12 @@ const res = await fetch("/api/ai-agent", {
         className="w-full border rounded-lg p-2 text-sm"
       />
 
-      <button
+      {/* <button
         onClick={sendMessage}
         className="mt-2 w-full bg-black text-white rounded-lg py-2 text-sm"
       >
         Ask AI
-      </button>
+      </button> */}
     </div>
   );
 }
