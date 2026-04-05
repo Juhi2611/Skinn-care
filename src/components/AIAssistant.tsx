@@ -37,8 +37,6 @@ const res = await fetch("/api/ai-agent", {
 };
 
   return (
-    <div className="fixed bottom-6 right-6 w-80 bg-white rounded-2xl shadow-2xl p-4 z-50">
 
-    </div>
   );
 }
